@@ -28,8 +28,10 @@
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "@typescript-eslint/no-unused-vars": ["error", {
       "argsIgnorePattern": "_"
+
     }],
     "import/extensions": [
       "error",
@@ -44,4 +46,5 @@
       "typescript": {}
     }
   }
+
 }
